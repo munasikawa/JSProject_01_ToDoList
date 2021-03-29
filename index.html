@@ -1,0 +1,32 @@
+<!-- A To Do List App
+Type your task at the top and add it with the button next to it
+It will appear below the input field. When done with your task, 
+press once on it to cross it off and double click to remove. You can add multiple
+tasks.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Link to CSS Stylesheet-->
+        <link rel="stylesheet" href="style.css">
+        
+        <title>To Do List</title>
+    </head>
+    <body>
+        <h1>To Do List</h1>
+
+        <!-- The <div> tag defines a division or a section in an HTML document. 
+            The <div> tag is used as a container for HTML elements - 
+            which is then styled with CSS or manipulated with JavaScript.-->
+        <div class="container">
+            <input id="inputField" type="text"><button id="addToDo">+</button>
+            <div class="to-dos" id="toDoContainer">
+            </div>
+        </div>
+
+        <!-- This Script below is how we connect between html and Javascript-->
+        <script src="main.js"></script>
+    </body>
+</html>
